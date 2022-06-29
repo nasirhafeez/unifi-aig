@@ -13,6 +13,8 @@ if (isset($_SESSION['marketing'])) {
   exit('Cannot access this page directly');
 }
 
+echo $marketing;
+/*
 $mac = $_SESSION["id"];
 $apmac = $_SESSION["ap"];
 $last_updated = date("Y-m-d H:i:s");
@@ -91,3 +93,4 @@ $auth_result = $unifi_connection->authorize_guest($mac, $duration, null, null, n
 </div>
 </body>
 </html>
+*/
