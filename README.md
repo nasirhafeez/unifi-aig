@@ -5,6 +5,6 @@ The following actions are required to use the code given in this repo:
  
 Rename the `.env.example` file to `.env` and set the values of the given environment variables in it.
 
-*Install Composer*
+*Composer Setup*
 
-Then run `php composer.phar install` to install the packages given in `composer.json`.
+Use [this](https://getcomposer.org/download/) link to install Composer. Then run `php composer.phar install` to install the packages given in `composer.json`.
