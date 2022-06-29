@@ -72,7 +72,7 @@ $auth_result = $unifi_connection->authorize_guest($mac, $duration, null, null, n
 </head>
 
 <body>
-<div class="page">
+<div class="page2">
 
     <div class="head">
         <br>

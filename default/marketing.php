@@ -25,7 +25,7 @@ $_SESSION['email'] = $_POST['email'];
 </head>
 
 <body>
-<div class="page">
+<div class="page2">
 
   <div class="head">
     <br>
