@@ -17,9 +17,6 @@ $mac = $_SESSION["id"];
 $apmac = $_SESSION["ap"];
 $last_updated = date("Y-m-d H:i:s");
 
-echo $marketing;
-
-
 if ($marketing == 'accept') {
   $fname = $_SESSION['fname'];
   $lname = $_SESSION['lname'];
