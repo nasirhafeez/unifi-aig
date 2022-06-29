@@ -6,9 +6,9 @@ include 'config.php';
 if (isset($_SESSION['marketing'])) {
   $marketing = $_SESSION['marketing'];
 } elseif (isset($_POST['reject'])) {
-  $marketing = false;
+  $marketing = 'reject';
 } elseif (isset($_POST['accept'])) {
-  $marketing = true;
+  $marketing = 'accept';
 } else {
   exit('Cannot access this page directly');
 }
@@ -19,8 +19,8 @@ $last_updated = date("Y-m-d H:i:s");
 
 echo $marketing;
 
-/*
-if ($marketing) {
+
+if ($marketing == 'accept') {
   $fname = $_SESSION['fname'];
   $lname = $_SESSION['lname'];
   $email = $_SESSION['email'];
@@ -94,4 +94,3 @@ $auth_result = $unifi_connection->authorize_guest($mac, $duration, null, null, n
 </div>
 </body>
 </html>
-*/

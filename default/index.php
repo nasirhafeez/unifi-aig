@@ -15,7 +15,7 @@ if ($result->num_rows >= 1) {
 
   mysqli_close($con);
 
-  $_SESSION['marketing'] = true;
+  $_SESSION['marketing'] = 'exists';
   header("Location: welcome.php");
 } else {
   mysqli_close($con);
