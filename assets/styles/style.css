@@ -62,6 +62,13 @@
   margin: 0;
 }
 
+.privacy
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Media Query for iPads */
 
 @media only screen 
