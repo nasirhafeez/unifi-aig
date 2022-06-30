@@ -1,3 +1,8 @@
+<?php
+
+require 'header.php';
+
+?>
 <!doctype html>
 <html>
 
