@@ -13,6 +13,8 @@ $_SESSION["user_type"] = "new";
 $stmt = $con->prepare("SELECT * from `$table_name` WHERE mac=?");
 $stmt->bind_param("s", $_SESSION["id"]);
 $stmt->execute();
+$result = $stmt->get_result();
+//$user = $result->fetch_assoc();
 $stmt->close();
 
 if ($result->num_rows >= 1) {
