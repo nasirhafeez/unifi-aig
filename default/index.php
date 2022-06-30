@@ -9,28 +9,25 @@ $_SESSION["user_type"] = "new";
 
 # Checking DB to see if user exists or not.
 $stmt = $con->prepare("SELECT * from `$table_name` WHERE mac=?");
+
 if ($stmt) {
-    echo "true";
-} else {
-    echo "false";
+  $stmt->bind_param("s", $_SESSION["id"]);
+  $stmt->execute();
+  $result = $stmt->get_result();
+  $stmt->close();
+
+  if ($result->num_rows >= 1) {
+    $row = mysqli_fetch_array($result);
+
+    mysqli_close($con);
+
+    $_SESSION['marketing'] = 'exists';
+    header("Location: welcome.php");
+  }
 }
 
-/*
-$stmt->bind_param("s", $_SESSION["id"]);
-$stmt->execute();
-$result = $stmt->get_result();
-$stmt->close();
+mysqli_close($con);
 
-if ($result->num_rows >= 1) {
-  $row = mysqli_fetch_array($result);
-
-  mysqli_close($con);
-
-  $_SESSION['marketing'] = 'exists';
-  header("Location: welcome.php");
-} else {
-  mysqli_close($con);
-}
 ?>
 <!doctype html>
 <html>
@@ -355,4 +352,3 @@ if ($result->num_rows >= 1) {
 </div>
 </body>
 </html>
-*/
