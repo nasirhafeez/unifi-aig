@@ -19,7 +19,7 @@ require 'header.php';
 </head>
 
 <body>
-<div class="page">
+<div class="page2">
 
   <div class="head">
     <br>
