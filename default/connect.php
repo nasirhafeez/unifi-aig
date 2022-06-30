@@ -38,11 +38,8 @@ if ($marketing == 'accept') {
 
   $stmt = $con->prepare("INSERT INTO `$table_name` (firstname, lastname, email, phone, mac, last_updated) VALUES (?, ?, ?, ?, ?, ?)");
   $stmt->bind_param("ssssss", $fname, $lname, $email, $phone, $mac, $last_updated);
-
   $stmt->execute();
   $stmt->close();
-
-//  mysqli_query($con,"INSERT INTO `$table_name` (firstname, lastname, email, phone, mac, last_updated) VALUES ('$fname', '$lname', '$email', '$phone', '$mac', '$last_updated')");
 }
 mysqli_close($con);
 
