@@ -9,8 +9,11 @@ $_SESSION["user_type"] = "new";
 
 # Checking DB to see if user exists or not.
 $stmt = $con->prepare("SELECT * from `$table_name` WHERE mac=?");
-//echo $stmt;
-echo gettype($stmt);
+if ($stmt) {
+    echo "true";
+} else {
+    echo "false";
+}
 
 /*
 $stmt->bind_param("s", $_SESSION["id"]);
