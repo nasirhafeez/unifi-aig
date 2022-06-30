@@ -24,7 +24,9 @@
 
     <div class="privacy">
         <div class="content is-size-1">Privacy Policy</div>
-        <div class="content">We value your data and take your privacy seriously.This policy describes how The R&amp;A collects and uses your personal information when you interact with The R&amp;A via our Websites&nbsp; or otherwise, including when you purchase tickets for The Open, the AIG Women&rsquo;s Open and other R&amp;A championships, or when you apply to work or volunteer at The R&amp;A.We have tried to keep it simple, so please take the time to read this policy in full to understand our practices regarding your personal information. This policy was last updated in December 2020.</div>
+        <div class="content">We value your data and take your privacy seriously.</div>
+        <div class="content">This policy describes how The R&amp;A collects and uses your personal information when you interact with The R&amp;A via our Websites&nbsp; or otherwise, including when you purchase tickets for The Open, the AIG Women&rsquo;s Open and other R&amp;A championships, or when you apply to work or volunteer at The R&amp;A.</div>
+        <div class="content">We have tried to keep it simple, so please take the time to read this policy in full to understand our practices regarding your personal information. This policy was last updated in December 2020.</div>
         <div class="content is-size-3">Who are we?</div>
         <div class="content">The R&amp;A comprises R&amp;A Championships Limited (SC247047), R&amp;A Group Services Limited (SC247048), R&amp;A Rules Limited (SC247046), R&amp;A Trust Company (No. 1) Limited (SC247045), R&amp;A Trust Company (No.2) Limited (SC247049) and The R&amp;A Foundation (SC247050) (together &ldquo;The R&amp;A&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; and &ldquo;our&rdquo;). This policy applies to any and all of the organisations within The R&amp;A. If you would like to contact us about this policy, you can do so by:</div>
         <div class="content">
