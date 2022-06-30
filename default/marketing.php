@@ -56,7 +56,6 @@ $_SESSION['email'] = $_POST['email'];
       </div>
     </div>
   </form>
-
 </div>
 </body>
 </html>
