@@ -26,7 +26,7 @@ if ($stmt) {
   }
 }
 
-mysqli_close($con);
+//mysqli_close($con);
 
 ?>
 <!doctype html>
